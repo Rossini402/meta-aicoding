@@ -517,36 +517,24 @@ const cases: Case[] = [
     description: '设计一款AI降重产品，价值10万元订单',
     link: 'https://drwnsc5veu.feishu.cn/docx/PieSdJSTKoGUNjx1lM9cRRvAngg#share-AShzdHhg1oihf3xwipsclnkNnZg'
   },
-  
-  // 问答
   {
     id: 52,
-    title: '这部分是我近期遇到的共性问题',
-    category: '问答',
-    level: 1,
-    author: '小林',
-    description: '解答用户在AI编程中常见的问题',
-    link: 'https://drwnsc5veu.feishu.cn/docx/PieSdJSTKoGUNjx1lM9cRRvAngg#share-Ssn3dztK2oXcOux4S4AcUf4gnug'
-  },
-  
-  // 主理人
-  {
-    id: 53,
-    title: '小林从医学生到 AI 编程转型之路',
-    category: '主理人',
-    level: 1,
-    author: '小林',
-    description: '小林从医学生转型到AI编程领域的经历分享',
-    link: 'https://drwnsc5veu.feishu.cn/docx/PieSdJSTKoGUNjx1lM9cRRvAngg#AaqAdgAj5o7Vu2x3ff6ciAMJnVd'
-  },
-  {
-    id: 54,
     title: '付费 iOS 易转（榜单 24）',
     category: 'iOS',
     level: 2,
     author: '王登康',
     description: '通过用 AI编程，跑通了 iOS App 从开发到上架的完整闭环，登上了 App Store 分类付费榜 Top24。',
     link: 'https://drwnsc5veu.feishu.cn/docx/PieSdJSTKoGUNjx1lM9cRRvAngg#share-LbfbdOcN4owAnvx0z7EcSwBRnSf'
+  },
+  // 问答
+  {
+    id: 53,
+    title: '这部分是我近期遇到的共性问题',
+    category: '问答',
+    level: 1,
+    author: '小林',
+    description: '解答用户在AI编程中常见的问题',
+    link: 'https://drwnsc5veu.feishu.cn/docx/PieSdJSTKoGUNjx1lM9cRRvAngg#share-Ssn3dztK2oXcOux4S4AcUf4gnug'
   }
 ];
 
@@ -562,8 +550,7 @@ const filters = [
   { id: '安卓', name: '安卓开发' },
   { id: '插件', name: '插件开发' },
   { id: '产品', name: '产品设计' },
-  { id: '问答', name: '问答' },
-  // { id: '主理人', name: '主理人' }
+  { id: '问答', name: '问答' }
 ];
 
 const filteredCases = computed(() => {

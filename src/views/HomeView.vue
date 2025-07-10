@@ -10,7 +10,7 @@ function toggleQrCode() {
 </script>
 
 <template>
-  <main>
+  <main class="main-container">
     <section class="hero">
       <!-- 粒子背景 -->
       <div class="particles-bg">
@@ -150,8 +150,11 @@ function toggleQrCode() {
 </template>
 
 <style scoped>
-.hero {
+.main-container {
   background: linear-gradient(135deg, #f0f9ff 0%, #e0f2fe 30%, #f0f7ff 60%, #faf5ff 100%);
+}
+.hero {
+  /* background: linear-gradient(135deg, #f0f9ff 0%, #e0f2fe 30%, #f0f7ff 60%, #faf5ff 100%); */
   padding: 8rem 0;
   text-align: center;
   position: relative;
@@ -390,7 +393,6 @@ function toggleQrCode() {
 
 .core-concept {
   padding: 0;
-  background-color: transparent;
 }
 
 .concept-subtitle {
@@ -526,7 +528,7 @@ function toggleQrCode() {
 
 .open-source {
   padding: 6rem 0;
-  background-color: white;
+  /* background: linear-gradient(135deg, #f0f9ff 0%, #e0f2fe 30%, #f0f7ff 60%, #faf5ff 100%); */
 }
 
 .contribution-grid {
