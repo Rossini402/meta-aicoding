@@ -78,7 +78,7 @@ const promoters: Contributor[] = [
     name: '唯庸',
     title: '🔮 Agent 101 智能体指北',
     avatar: avatarMap[6],
-    link: 'https://agent101.org/'
+    link: 'https://agent101.feishu.cn/wiki/KLarwIA1piLrBYk7bf2cBf3HnNe?fromScene=spaceOverview'
   },
   {
     id: 7,
@@ -92,7 +92,7 @@ const promoters: Contributor[] = [
     name: '一支烟花社区',
     title: '-玩转AI',
     avatar: avatarMap[8],
-    link: 'https://mp.weixin.qq.com/s/search?query=一支烟花社'
+    link: 'https://t.zsxq.com/zrY7v'
   }
 ];
 
@@ -102,57 +102,49 @@ const caseProviders: Contributor[] = [
     id: 9,
     name: '潘达AI创业说',
     title: '',
-    avatar: avatarMap[9],
-    link: 'https://mp.weixin.qq.com/s/search?query=潘达AI创业说'
+    avatar: avatarMap[9]
   },
   {
     id: 10,
     name: '予贝AI编程',
     title: '',
-    avatar: avatarMap[10],
-    link: 'https://mp.weixin.qq.com/s/search?query=予贝AI编程'
+    avatar: avatarMap[10]
   },
   {
     id: 11,
     name: '易安说AI',
     title: '',
-    avatar: avatarMap[11],
-    link: 'https://mp.weixin.qq.com/s/search?query=易安说AI'
+    avatar: avatarMap[11]
   },
   {
     id: 12,
     name: '亦辰AI编程',
     title: '',
-    avatar: avatarMap[12]   ,
-    link: 'https://mp.weixin.qq.com/s/search?query=亦辰AI编程'
+    avatar: avatarMap[12]
   },
   {
     id: 13,
     name: '伍六七AI编程',
     title: '',
-    avatar: avatarMap[13],
-    link: 'https://mp.weixin.qq.com/s/search?query=伍六七AI编程'
+    avatar: avatarMap[13]
   },
   {
     id: 14,
     name: '狂热AI',
     title: '',
-    avatar: avatarMap[14],
-    link: 'https://mp.weixin.qq.com/s/search?query=狂热AI'
+    avatar: avatarMap[14]
   },
   {
     id: 15,
     name: '湾湾AI视频',
     title: '',
-    avatar: avatarMap[15],
-    link: 'https://mp.weixin.qq.com/s/search?query=湾湾AI视频'
+    avatar: avatarMap[15]
   },
   {
     id: 16,
     name: '泛函',
     title: '',
-    avatar: avatarMap[16],
-    link: 'https://mp.weixin.qq.com/s/search?query=泛函'
+    avatar: avatarMap[16]
   }
 ];
 
