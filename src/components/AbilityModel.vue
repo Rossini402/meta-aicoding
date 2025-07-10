@@ -13,12 +13,12 @@ const svgRef = ref<SVGElement>();
 const hoveredPoint = ref<AbilityPoint | null>(null);
 
 const abilityPoints: AbilityPoint[] = [
-  { x: 20, y: 20, label: '传统程序员', type: 'tech', description: '技术能力强，但缺乏产品思维' },
-  { x: 80, y: 20, label: '产品经理', type: 'meta', description: '需求洞察力强，但技术实现依赖他人' },
-  { x: 20, y: 80, label: '算法工程师', type: 'tech', description: '算法能力突出，但产品化能力有限' },
-  { x: 80, y: 80, label: 'AI时代创造者', type: 'balanced', description: '兼具元能力和技术能力的全能型人才' },
-  { x: 50, y: 35, label: '初级开发者', type: 'tech', description: '正在学习技术，需要培养产品思维' },
-  { x: 65, y: 60, label: '技术产品经理', type: 'balanced', description: '懂技术的产品经理，AI时代的稀缺人才' }
+  { x: 25, y: 35, label: '传统程序员', type: 'tech', description: '技术能力强，但缺乏产品思维' },
+  { x: 75, y: 35, label: '产品经理', type: 'meta', description: '需求洞察力强，但技术实现依赖他人' },
+  // { x: 20, y: 80, label: '算法工程师', type: 'tech', description: '算法能力突出，但产品化能力有限' },
+  { x: 88, y: 85, label: 'AI时代创造者', type: 'balanced', description: '兼具元能力和技术能力的全能型人才' },
+  // { x: 50, y: 35, label: '初级开发者', type: 'tech', description: '正在学习技术，需要培养产品思维' },
+  { x: 55, y: 55, label: '技术产品经理', type: 'balanced', description: '懂技术的产品经理，AI时代的稀缺人才' }
 ];
 
 const getPointColor = (type: string) => {
@@ -77,7 +77,7 @@ const handlePointLeave = () => {
           <!-- 象限标签 -->
           <text x="125" y="200" text-anchor="middle" class="quadrant-label">低元能力<tspan x="125" dy="15">高技术</tspan></text>
           <text x="275" y="200" text-anchor="middle" class="quadrant-label">高元能力<tspan x="275" dy="15">低技术</tspan></text>
-          <text x="125" y="100" text-anchor="middle" class="quadrant-label">低元能力<tspan x="125" dy="15">低技术</tspan></text>
+          <!-- <text x="125" y="100" text-anchor="middle" class="quadrant-label">低元能力<tspan x="125" dy="15">高技术</tspan></text> -->
           <text x="275" y="100" text-anchor="middle" class="quadrant-label">高元能力<tspan x="275" dy="15">高技术</tspan></text>
           
           <!-- 能力点 -->
