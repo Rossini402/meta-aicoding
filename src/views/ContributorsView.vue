@@ -931,18 +931,24 @@ const skillExpanders: Contributor[] = [
   
   .thanks-card {
     padding: 1.2rem 0.8rem;
-    min-height: 130px;
+    min-height: 140px;
   }
   
   .thanks-title {
     font-size: 0.9rem;
-    margin-bottom: 0.4rem;
+    margin-bottom: 0.5rem;
   }
   
   .thanks-content {
-    font-size: 0.75rem;
+    font-size: 0.8rem;
+    line-height: 1.3;
   }
   
+  .card-number {
+    width: 1.8rem;
+    height: 1.8rem;
+    font-size: 0.65rem;
+  }
 }
   
   .contributor-grid {
@@ -990,23 +996,24 @@ const skillExpanders: Contributor[] = [
   }
   
   .thanks-cards-grid {
-    grid-template-columns: 1fr;
+    grid-template-columns: repeat(2, 1fr);
     gap: 0.8rem;
     padding: 0 0.5rem;
   }
   
   .thanks-card {
-    padding: 1rem 0.8rem;
-    min-height: 120px;
+    padding: 1rem 0.6rem;
+    min-height: 130px;
   }
   
   .thanks-title {
-    font-size: 0.85rem;
-    margin-bottom: 0.3rem;
+    font-size: 0.8rem;
+    margin-bottom: 0.4rem;
   }
   
   .thanks-content {
     font-size: 0.7rem;
+    line-height: 1.2;
   }
   
   .card-number {
@@ -1049,6 +1056,36 @@ const skillExpanders: Contributor[] = [
   /* 禁用移动端的一些动画以提升性能 */
   .card-shine {
     display: none;
+  }
+}
+
+@media (max-width: 360px) {
+  .thanks-cards-grid {
+    gap: 0.6rem;
+    padding: 0 0.25rem;
+  }
+  
+  .thanks-card {
+    padding: 0.8rem 0.5rem;
+    min-height: 120px;
+  }
+  
+  .thanks-title {
+    font-size: 0.75rem;
+    margin-bottom: 0.3rem;
+  }
+  
+  .thanks-content {
+    font-size: 0.65rem;
+    line-height: 1.1;
+  }
+  
+  .card-number {
+    width: 1.3rem;
+    height: 1.3rem;
+    font-size: 0.55rem;
+    top: 0.6rem;
+    left: 0.6rem;
   }
 }
 </style> 

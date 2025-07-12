@@ -194,6 +194,8 @@ onUnmounted(() => {
 .mobile-nav.is-open {
   padding: 0.5rem 0;
   max-height: 300px;
+  overflow-y: auto;
+  -webkit-overflow-scrolling: touch;
 }
 
 footer {
