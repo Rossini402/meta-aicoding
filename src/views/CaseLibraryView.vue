@@ -735,8 +735,8 @@ const levelToStars = (level: number): string => {
 
 @media (max-width: 768px) {
   .case-grid {
-    grid-template-columns: 1fr;
-    gap: 1.5rem;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
   }
   
   .filters-container {
@@ -786,6 +786,11 @@ const levelToStars = (level: number): string => {
 }
 
 @media (max-width: 480px) {
+  .case-grid {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+  }
+  
   .section-title {
     font-size: 2rem;
   }
@@ -849,9 +854,15 @@ const levelToStars = (level: number): string => {
   
   .case-meta {
     margin-bottom: 0.8rem;
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 0.3rem;
+    flex-direction: row;
+    align-items: center;
+    gap: 0.4rem;
+    font-size: 0.8rem;
+  }
+  
+  .meta-category {
+    font-size: 0.7rem;
+    padding: 0.15rem 0.5rem;
   }
   
   .case-description {
