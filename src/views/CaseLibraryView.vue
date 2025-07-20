@@ -32,17 +32,16 @@ const handleCardHover = (cardId: number | null) => {
 
 const filters = [
   { id: 'all', name: '全部案例' },
-  { id: '工具', name: '工具应用' },
-  { id: 'Agent', name: 'Agent 应用' },
+  { id: '工具', name: '工具' },
+  { id: '小程序', name: '小程序' },
+  { id: 'iOS', name: 'iOS' },
+  { id: '安卓', name: '安卓' },
+  { id: '网站', name: '网站' },
+  { id: '插件', name: '插件' },
   { id: '提示词', name: '提示词' },
-  { id: 'MCP', name: 'MCP 应用' },
-  { id: '网站', name: '网站开发' },
-  { id: '小程序', name: '小程序开发' },
-  { id: 'iOS', name: 'iOS 开发' },
-  { id: '安卓', name: '安卓开发' },
-  { id: '插件', name: '插件开发' },
-  { id: '产品', name: '产品设计' },
-  { id: '问答', name: '问答' }
+  { id: 'MCP', name: 'MCP' },
+  { id: 'Agent', name: 'Agent' },
+  { id: '主理人', name: '主理人' },
 ];
 
 const filteredCases = computed(() => {
