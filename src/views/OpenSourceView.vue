@@ -96,7 +96,7 @@ const toggleWechatGroupQrCode = () => {
               <div class="access-content">
                 <h3>飞书文档</h3>
                 <p>随时在线阅读完整手册，更新及时</p>
-                <a href="https://drwnsc5veu.feishu.cn/docx/PieSdJSTKoGUNjx1lM9cRRvAngg" target="_blank" class="access-btn">
+                <a href="https://drwnsc5veu.feishu.cn/wiki/HhHOwodFciggqqkTeF8cK3Wcnyb" target="_blank" class="access-btn">
                   <span>立即访问</span>
                   <span class="btn-icon">→</span>
                   <div class="btn-ripple"></div>

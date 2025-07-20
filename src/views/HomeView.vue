@@ -68,7 +68,7 @@ function toggleQrCode() {
         </div>
 
         <div class="hero-actions animate-scale-in">
-          <a href="https://drwnsc5veu.feishu.cn/docx/PieSdJSTKoGUNjx1lM9cRRvAngg" target="_blank" class="btn btn-primary">
+          <a href="https://drwnsc5veu.feishu.cn/wiki/HhHOwodFciggqqkTeF8cK3Wcnyb" target="_blank" class="btn btn-primary">
             <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
               <path d="M14 2H6c-1.1 0-2 .9-2 2v16c0 1.1.9 2 2 2h12c1.1 0 2-.9 2-2V8l-6-6zM6 20V4h7v5h5v11H6z"/>
             </svg>
@@ -119,7 +119,7 @@ function toggleQrCode() {
             </div>
             <h3>知识无界</h3>
             <p>手册永久免费开放，遵循开源协议。我们相信知识的自由流动是创新之本</p>
-            <a href="https://drwnsc5veu.feishu.cn/docx/PieSdJSTKoGUNjx1lM9cRRvAngg" target="_blank" class="card-link">访问飞书文档</a>
+            <a href="https://drwnsc5veu.feishu.cn/wiki/HhHOwodFciggqqkTeF8cK3Wcnyb" target="_blank" class="card-link">访问飞书文档</a>
           </div>
           
           <div class="contribution-card">

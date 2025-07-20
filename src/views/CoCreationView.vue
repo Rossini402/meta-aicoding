@@ -29,7 +29,7 @@
               </div>
               <h3>提交案例</h3>
               <p>分享您的 AI 编程实战经验和案例，帮助他人学习和成长</p>
-              <a href="https://drwnsc5veu.feishu.cn/docx/PieSdJSTKoGUNjx1lM9cRRvAngg" target="_blank" class="way-link">查看案例模板 →</a>
+              <a href="https://drwnsc5veu.feishu.cn/wiki/HhHOwodFciggqqkTeF8cK3Wcnyb" target="_blank" class="way-link">查看案例模板 →</a>
             </div>
             
             <div class="way-card">

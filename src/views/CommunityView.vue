@@ -26,7 +26,7 @@ function toggleQrCode() {
             与 500+ 位 AI 编程爱好者一起交流，分享经验，解决问题，共同成长。
           </p>
           <div class="community-actions">
-            <a href="https://drwnsc5veu.feishu.cn/docx/PieSdJSTKoGUNjx1lM9cRRvAngg" target="_blank" class="btn btn-primary">查看飞书文档</a>
+            <a href="https://drwnsc5veu.feishu.cn/wiki/HhHOwodFciggqqkTeF8cK3Wcnyb" target="_blank" class="btn btn-primary">查看飞书文档</a>
             <button @click="toggleQrCode" class="btn btn-secondary">加入微信群</button>
           </div>
         </div>
