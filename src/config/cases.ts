@@ -241,7 +241,7 @@ const cases: Case[] = [
     },
     {
       id: 4.4,
-      title: '坐标轴科幻风',
+      title: '坐标轴科幻风网页',
       category: '网站',
       level: 1,
       author: '小林',
@@ -318,7 +318,7 @@ const cases: Case[] = [
       title: 'Cursor 全局提示',
       category: '提示词',
       level: 1,
-      author: '共创者',
+      author: '',
       description: '如何在Cursor中设置和使用全局提示词',
       link: 'https://drwnsc5veu.feishu.cn/wiki/ZcnFw5esXiglS2kyswWcPMLPnrH'
     },

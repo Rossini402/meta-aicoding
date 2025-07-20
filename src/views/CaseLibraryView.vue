@@ -9,8 +9,7 @@ const activeFilter = ref('all');
 const showContent = ref(false);
 const showHeader = ref(false);
 const showFilters = ref(false);
-const showBeginnerSection = ref(false);
-const showAdvancedSection = ref(false);
+const showCasesSection = ref(false);
 const hoveredCard = ref<number | null>(null);
 
 // 页面加载动画
@@ -21,8 +20,7 @@ onMounted(async () => {
   setTimeout(() => showContent.value = true, 100);
   setTimeout(() => showHeader.value = true, 300);
   setTimeout(() => showFilters.value = true, 600);
-  setTimeout(() => showBeginnerSection.value = true, 900);
-  setTimeout(() => showAdvancedSection.value = true, 1200);
+  setTimeout(() => showCasesSection.value = true, 900);
 });
 
 // 卡片悬停处理
@@ -52,22 +50,15 @@ const filteredCases = computed(() => {
     result = cases.filter(c => c.category === activeFilter.value);
   }
   
-  // 按照 level 等级从小到大排序
-  return result.sort((a, b) => a.level - b.level);
+  return result;
 });
 
-// 区分入门级别和进阶级别的案例
-const categorizedCases = computed(() => {
-  const filtered = filteredCases.value;
-  return {
-    beginner: filtered.filter(c => c.level === 1),
-    advanced: filtered.filter(c => c.level > 1)
-  };
+// 获取所有筛选后的案例，不再区分级别
+const allCases = computed(() => {
+  return filteredCases.value;
 });
 
-const levelToStars = (level: number): string => {
-  return '★'.repeat(level);
-};
+
 </script>
 
 <template>
@@ -105,18 +96,18 @@ const levelToStars = (level: number): string => {
       </div>
 
       <div class="container content-container">
-        <!-- 入门级别案例 -->
-        <div class="section-wrapper" :class="{ 'section-visible': showBeginnerSection }" v-if="categorizedCases.beginner.length > 0">
+        <!-- 所有案例 -->
+        <div class="section-wrapper" :class="{ 'section-visible': showCasesSection }" v-if="allCases.length > 0">
           <h2 class="category-title">
-            <span class="category-icon">🌱</span>
+            <span class="category-icon">📚</span>
             <span class="staggered-text">
-              <span v-for="(char, index) in '入门级案例'" :key="index" :style="{ 'animation-delay': `${index * 0.05}s` }">{{ char }}</span>
+              <span v-for="(char, index) in '全部案例'" :key="index" :style="{ 'animation-delay': `${index * 0.05}s` }">{{ char }}</span>
             </span>
-            <div class="category-count">{{ categorizedCases.beginner.length }}个</div>
+            <div class="category-count">{{ allCases.length }}个</div>
           </h2>
-          <div class="case-grid" :class="{ 'grid-visible': showBeginnerSection }">
+          <div class="case-grid" :class="{ 'grid-visible': showCasesSection }">
             <a 
-              v-for="(caseItem, index) in categorizedCases.beginner" 
+              v-for="(caseItem, index) in allCases" 
               :key="caseItem.id"
               :href="caseItem.link"
               target="_blank"
@@ -126,53 +117,6 @@ const levelToStars = (level: number): string => {
               @mouseenter="handleCardHover(caseItem.id)"
               @mouseleave="handleCardHover(null)"
             >
-              <div class="case-level">
-                <span class="level-stars">{{ levelToStars(caseItem.level) }}</span>
-                <span class="level-text">入门</span>
-              </div>
-              <div class="case-content">
-                <h3 class="case-title">{{ caseItem.title }}</h3>
-                <p class="case-meta">
-                  <span class="meta-category">{{ caseItem.category }}</span>
-                  <span class="meta-divider">|</span>
-                  <span class="meta-author">{{ caseItem.author }}</span>
-                </p>
-                <p class="case-description">{{ caseItem.description }}</p>
-              </div>
-              <div class="case-link">
-                <span>查看详情</span>
-                <div class="link-arrow">→</div>
-              </div>
-              <div class="card-shine"></div>
-            </a>
-          </div>
-        </div>
-
-        <!-- 进阶级别案例 -->
-        <div class="section-wrapper" :class="{ 'section-visible': showAdvancedSection }" v-if="categorizedCases.advanced.length > 0">
-          <h2 class="category-title">
-            <span class="category-icon">🚀</span>
-            <span class="staggered-text">
-              <span v-for="(char, index) in '进阶案例'" :key="index" :style="{ 'animation-delay': `${index * 0.05}s` }">{{ char }}</span>
-            </span>
-            <div class="category-count">{{ categorizedCases.advanced.length }}个</div>
-          </h2>
-          <div class="case-grid" :class="{ 'grid-visible': showAdvancedSection }">
-            <a 
-              v-for="(caseItem, index) in categorizedCases.advanced" 
-              :key="caseItem.id"
-              :href="caseItem.link"
-              target="_blank"
-              rel="noopener noreferrer"
-              class="case-card advanced-card"
-              :style="{ 'animation-delay': `${index * 0.1}s` }"
-              @mouseenter="handleCardHover(caseItem.id)"
-              @mouseleave="handleCardHover(null)"
-            >
-              <div class="case-level">
-                <span class="level-stars">{{ levelToStars(caseItem.level) }}</span>
-                <span class="level-text">进阶</span>
-              </div>
               <div class="case-content">
                 <h3 class="case-title">{{ caseItem.title }}</h3>
                 <p class="case-meta">
@@ -490,9 +434,7 @@ const levelToStars = (level: number): string => {
   transition: opacity 0.3s ease;
 }
 
-.case-card.advanced-card::before {
-  background: linear-gradient(90deg, #f59e0b, #ef4444);
-}
+
 
 .case-card:hover::before {
   opacity: 1;
@@ -509,51 +451,11 @@ const levelToStars = (level: number): string => {
 }
 
 /* ========== 案例卡片内容样式 ========== */
-.case-level {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  margin-bottom: 1.2rem;
-  padding: 0.5rem 1rem;
-  background: linear-gradient(135deg, #f8fafc, #e2e8f0);
-  border-radius: 1rem;
-  transition: all 0.3s ease;
-}
-
-.case-card:hover .case-level {
-  background: linear-gradient(135deg, #e0f2fe, #bfdbfe);
-  transform: scale(1.02);
-}
-
-.level-stars {
-  font-weight: bold;
-  color: #fbbf24;
-  font-size: 1.1rem;
-  transition: transform 0.3s ease;
-}
-
-.case-card:hover .level-stars {
-  transform: scale(1.1);
-}
-
-.level-text {
-  font-size: 0.75rem;
-  font-weight: 600;
-  color: #64748b;
-  background: rgba(255, 255, 255, 0.8);
-  padding: 0.2rem 0.6rem;
-  border-radius: 0.5rem;
-  transition: all 0.3s ease;
-}
-
-.case-card:hover .level-text {
-  background: rgba(255, 255, 255, 1);
-  color: #3b82f6;
-}
 
 .case-content {
   flex: 1;
   margin-bottom: 1.5rem;
+  margin-top: 0;
 }
 
 .case-title {
@@ -770,13 +672,7 @@ const levelToStars = (level: number): string => {
     font-size: 1.1rem;
   }
   
-  .case-level {
-    padding: 0.4rem 0.8rem;
-  }
-  
-  .level-stars {
-    font-size: 1rem;
-  }
+
   
   .case-link {
     padding: 0.6rem 1rem;
@@ -837,19 +733,7 @@ const levelToStars = (level: number): string => {
     margin-bottom: 0.6rem;
   }
   
-  .case-level {
-    padding: 0.3rem 0.6rem;
-    margin-bottom: 1rem;
-  }
-  
-  .level-stars {
-    font-size: 0.9rem;
-  }
-  
-  .level-text {
-    font-size: 0.65rem;
-    padding: 0.15rem 0.4rem;
-  }
+
   
   .case-meta {
     margin-bottom: 0.8rem;
