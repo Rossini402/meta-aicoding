@@ -55,6 +55,15 @@ const cases: Case[] = [
       description: 'Claude Code 如何快速接入 Kimi K2模型',
       link: 'https://drwnsc5veu.feishu.cn/wiki/D6tbwCTOjiZsIMkqn8nceiP8nih'
     },
+    {
+      id: 0.6,
+      title: 'codeBuddy 使用教程',
+      category: '工具',
+      level: 1,
+      author: '小林',
+      description: '详细介绍 codeBuddy 功能',
+      link: 'https://drwnsc5veu.feishu.cn/wiki/EzWBwhlKNi0yDskGXjEcS5XDnDb'
+    },
     // 小程序
     {
       id: 1.1,
@@ -154,6 +163,33 @@ const cases: Case[] = [
       author: '狂热',
       description: '开发一个推荐小众旅游目的地的小程序',
       link: 'https://drwnsc5veu.feishu.cn/wiki/DYJKwPCQvirX6vkuIq6ciIZenJg'
+    },
+    {
+      id: 1.12,
+      title: 'AI菜谱小程序开发:产品、设计、技术全流程',
+      category: '小程序',
+      level: 4,
+      author: '管一诺',
+      description: '详细分享菜谱小程序开发全流程',
+      link: 'https://drwnsc5veu.feishu.cn/wiki/G9BywNSkkiCaDAk3DcScyQoinle'
+    },
+    {
+      id: 1.13,
+      title: 'AI开发 2048 益智游戏',
+      category: '小程序',
+      level: 4,
+      author: '小林',
+      description: '详细分享开发 2048 游戏全流程',
+      link: 'https://drwnsc5veu.feishu.cn/wiki/PuWGwvlECizCYdkFUURcMtBhnhe'
+    },
+    {
+      id: 1.14,
+      title: 'AI开发 K12 小程序，10000+商单心得',
+      category: '小程序',
+      level: 4,
+      author: '大鹏',
+      description: '详细分享 K12 小程序开发全流程和心得',
+      link: 'https://drwnsc5veu.feishu.cn/wiki/LwL2wYH3xi1DQTkC8jpcxeXwn3b'
     },
     // iOS
     {
@@ -284,6 +320,24 @@ const cases: Case[] = [
       description: '针对海外用户优化网站UI设计，价值1000美金的项目',
       link: 'https://drwnsc5veu.feishu.cn/wiki/NKhVwJNwdiGYMXk5ir7cR236ngQ'
     },
+    {
+      id: 4.9,
+      title: 'AI 表情包网站从 0 到 1 开发全流程',
+      category: '网站',
+      level: 3,
+      author: '超级无敌小湾娘',
+      description: '从 0 到 1 开发表情包网站',
+      link: 'https://drwnsc5veu.feishu.cn/wiki/JrAOwLm7CiIggEkA2LDcUAUbnZb'
+    },
+    {
+      id: 4.10,
+      title: 'codeBuddy 开发电商后台系统',
+      category: '网站',
+      level: 3,
+      author: '亦辰',
+      description: '演示codeBuddy 开发电商后台系统全流程',
+      link: 'https://drwnsc5veu.feishu.cn/wiki/I1blwjILIif9tmkEsbJcURvWnFe'
+    },
     // 插件
     {
       id: 5.1,
@@ -318,9 +372,45 @@ const cases: Case[] = [
       title: 'Cursor 全局提示',
       category: '提示词',
       level: 1,
-      author: '',
+      author: '大铭',
       description: '如何在Cursor中设置和使用全局提示词',
       link: 'https://drwnsc5veu.feishu.cn/wiki/ZcnFw5esXiglS2kyswWcPMLPnrH'
+    },
+    {
+      id: 6.2,
+      title: '万字拆解构建高性能 Prompt 之路，结构化提示词系统论述',
+      category: '提示词',
+      level: 1,
+      author: '云中江树',
+      description: '结构化提示词系统论述',
+      link: 'https://drwnsc5veu.feishu.cn/wiki/UB3Iwdqnxio5uBkHK87cBKEYnLo'
+    },
+    {
+      id: 6.3,
+      title: '我把顶级“思维教练”塞进 A，让人人都能用的六顶思考帽(附 Prompt)',
+      category: '提示词',
+      level: 1,
+      author: '甲木',
+      description: 'https://drwnsc5veu.feishu.cn/wiki/VWuvwhq0OiTwjEk9AoRcMw5lnyd',
+      link: 'https://drwnsc5veu.feishu.cn/wiki/Q09Uw0001i027EkZ0QAcC20rnQe'
+    },
+    {
+      id: 6.4,
+      title: '把 AI变成“最强军师团”!人人都能享受顶级咨询(附Prompt)',
+      category: '提示词',
+      level: 1,
+      author: '甲木',
+      description: '如何通过一个精心设计的 Prompt，让 AI摇身一变，成为你的专属私董会专家，帮你层层剖析问题，挖掘解决方案',
+      link: 'https://drwnsc5veu.feishu.cn/wiki/TxeFwf6d5igzzskuEqwcsanlnZg'
+    },
+    {
+      id: 6.5,
+      title: '从 DeepSeek 最新的系统提示词，窥见 DS性格',
+      category: '提示词',
+      level: 1,
+      author: '云中江树',
+      description: 'DeepSeek的系统提示词到底长什么样?',
+      link: 'https://drwnsc5veu.feishu.cn/wiki/BzvcwbxB7iH7NXkEqtschHcHnWe'
     },
      // MCP
      {
@@ -485,6 +575,15 @@ const cases: Case[] = [
       description: '解决在智能体开发过程中的支付问题',
       link: 'https://drwnsc5veu.feishu.cn/wiki/KBfpwJPyXi82fFkfWTEcZgbandc'
     },
+    {
+      id: 7.19,
+      title: '提示词+MCP，Cursor 秒变 Kiro',
+      category: 'MCP',
+      level: 1,
+      author: '大铭',
+      description: '通过 Specs 方式，确保 AI 编程的一致性',
+      link: 'https://drwnsc5veu.feishu.cn/wiki/Jmg4w9sJUialH5kegwZcmcHenvh'
+    },
     
     // Agent
     {
@@ -522,6 +621,24 @@ const cases: Case[] = [
       author: '熊猫Jay',
       description: '设计一款AI降重产品，价值10万元订单',
       link: 'https://drwnsc5veu.feishu.cn/wiki/GGfjwwdqxi0kiPk0iXxcCZbtnXc'
+    },
+    {
+      id: 8.5,
+      title: '设计 Agent，Lovart 八大场景实测(含 Prompt)',
+      category: 'Agent',
+      level: 1,
+      author: '甲木',
+      description: '实测 Lovart 八大场景表现效果',
+      link: 'https://drwnsc5veu.feishu.cn/wiki/QCZGwUOP7idyOkkZ1EQcitZ2nue'
+    },
+    {
+      id: 8.6,
+      title: '通用 Agent，我用 Manus 做网页',
+      category: 'Agent',
+      level: 1,
+      author: '亦辰',
+      description: '使用 Manus 快速开发网页',
+      link: 'https://drwnsc5veu.feishu.cn/wiki/ImcDwqLrlivXdCk3bGGcRJb7njf'
     },
     // 主理人
     {
