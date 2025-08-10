@@ -17,12 +17,12 @@ function handleClickOutside(event: MouseEvent) {
   const target = event.target as HTMLElement
   const mobileMenu = document.querySelector('.mobile-nav')
   const menuButton = document.querySelector('.mobile-menu-btn')
-  
+
   if (
-    isMobileMenuOpen.value && 
-    mobileMenu && 
-    menuButton && 
-    !mobileMenu.contains(target) && 
+    isMobileMenuOpen.value &&
+    mobileMenu &&
+    menuButton &&
+    !mobileMenu.contains(target) &&
     !menuButton.contains(target)
   ) {
     closeMobileMenu()
@@ -44,7 +44,7 @@ onUnmounted(() => {
       <div class="logo">
         <RouterLink to="/">元 Coding</RouterLink>
       </div>
-      
+
       <!-- 桌面导航 -->
       <nav class="desktop-nav">
         <RouterLink to="/">首页</RouterLink>
@@ -57,7 +57,7 @@ onUnmounted(() => {
         <!-- <RouterLink to="/co-creation">共创计划</RouterLink> -->
         <!-- <RouterLink to="/community">社群</RouterLink> -->
       </nav>
-      
+
       <!-- 移动端汉堡菜单按钮 -->
       <button class="mobile-menu-btn" @click="toggleMobileMenu">
         <span></span>
@@ -65,7 +65,7 @@ onUnmounted(() => {
         <span></span>
       </button>
     </div>
-    
+
     <!-- 移动端导航菜单 -->
     <div class="mobile-nav" :class="{ 'is-open': isMobileMenuOpen }">
       <RouterLink to="/" @click="closeMobileMenu">首页</RouterLink>
@@ -81,7 +81,11 @@ onUnmounted(() => {
 
   <footer>
     <div class="container">
-      <p>&copy; 2025 元 Coding | AI 编程实战手册 - 永久免费开源</p>
+      <p>
+        <a href="https://beian.miit.gov.cn/" target="_blank" rel="nofollow">京ICP备2025130164号-2</a>
+        &nbsp; | &nbsp;
+        ©2025 元Coding AI编程实战手册-免费开源
+      </p>
     </div>
   </footer>
 </template>
@@ -212,15 +216,15 @@ footer {
   .desktop-nav {
     display: none;
   }
-  
+
   .mobile-menu-btn {
     display: flex;
   }
-  
+
   .mobile-nav {
     display: flex;
   }
-  
+
   .logo {
     margin: 0;
   }
