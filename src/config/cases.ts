@@ -10,7 +10,7 @@ interface Case {
 const cases: Case[] = [  
     // 工具
     {
-      id: 0.1,
+      id: 0,
       title: 'AI 编程工具 Cursor',
       category: '工具',
       author: '小林',
@@ -18,7 +18,7 @@ const cases: Case[] = [
       link: 'https://drwnsc5veu.feishu.cn/wiki/EYRiweI5ai1y8YkHrjEcXvL6noa'
     },
     {
-      id: 0.2,
+      id: 1,
       title: '字节 Trae',
       category: '工具',
       author: '小林',
@@ -26,7 +26,7 @@ const cases: Case[] = [
       link: 'https://drwnsc5veu.feishu.cn/wiki/BxLfwf5Xfi6KkZkZjuictRAhnLe'
     },
     {
-      id: 0.3,
+      id: 2,
       title: '阿里通义灵码',
       category: '工具',
       author: '小林',
@@ -34,7 +34,7 @@ const cases: Case[] = [
       link: 'https://drwnsc5veu.feishu.cn/wiki/Jtv8wxpswiXQUDk8DZEcRQcOnEb'
     },
     {
-      id: 0.4,
+      id: 3,
       title: '如何利用 Git 进行版本控制',
       category: '工具',
       author: '予贝',
@@ -42,7 +42,7 @@ const cases: Case[] = [
       link: 'https://drwnsc5veu.feishu.cn/wiki/FdwAwnFImiC7EIkaNq1c6lzvnWc'
     },
     {
-      id: 0.5,
+      id: 4,
       title: 'Claude Code + Kimi K2',
       category: '工具',
       author: '小林',
@@ -50,7 +50,7 @@ const cases: Case[] = [
       link: 'https://drwnsc5veu.feishu.cn/wiki/D6tbwCTOjiZsIMkqn8nceiP8nih'
     },
     {
-      id: 0.6,
+      id: 5,
       title: 'codeBuddy 使用教程',
       category: '工具',
       author: '小林',
@@ -59,7 +59,7 @@ const cases: Case[] = [
     },
     // 小程序
     {
-      id: 1.1,
+      id: 6,
       title: 'AI 开发编程题库类小程序（4.3 万用户）',
       category: '小程序',
       author: '小林',
@@ -67,7 +67,7 @@ const cases: Case[] = [
       link: 'https://drwnsc5veu.feishu.cn/wiki/UaMsw4uIMiK5VokIf7pcbO38nWt'
     },
     {
-      id: 1.2,
+      id: 7,
       title: 'AI 开发寿命预估小程序（1.3 万用户）',
       category: '小程序',
       author: '小林',
@@ -75,7 +75,7 @@ const cases: Case[] = [
       link: 'https://drwnsc5veu.feishu.cn/wiki/JdPMw1MRKiEWDVkV1V9c3Lv6nbf'
     },
     {
-      id: 1.3,
+      id: 8,
       title: 'AI 开发减肥记录小程序（2700 用户）',
       category: '小程序',
       author: '小林',
@@ -83,7 +83,7 @@ const cases: Case[] = [
       link: 'https://drwnsc5veu.feishu.cn/wiki/TZKqwbOS8iuho5kisx6czrA0n1d'
     },
     {
-      id: 1.4,
+      id: 9,
       title: 'AI 开发图片压缩小程序（1000 用户）',
       category: '小程序',
       author: '小林',
@@ -91,7 +91,7 @@ const cases: Case[] = [
       link: 'https://drwnsc5veu.feishu.cn/wiki/CpU7w0zwMixwRBksjtVclhMWnJh'
     },
     {
-      id: 1.5,
+      id: 10,
       title: 'AI 开发图片加水印小程序（500 用户）',
       category: '小程序',
       author: '小林',
@@ -99,7 +99,7 @@ const cases: Case[] = [
       link: 'https://drwnsc5veu.feishu.cn/wiki/JFWYwTKF3iv8nLkJoUecUm5nnqf'
     },
     {
-      id: 1.6,
+      id: 11,
       title: 'AI 开发饺子售卖小程序（2000 商单）',
       category: '小程序',
       author: '伍六七',
@@ -107,7 +107,7 @@ const cases: Case[] = [
       link: 'https://drwnsc5veu.feishu.cn/wiki/X67cwYb20izi8pk6ZfycgJwUnpc'
     },
     {
-      id: 1.7,
+      id: 12,
       title: 'AI 开发查八字小程序',
       category: '小程序',
       author: '苍何',
@@ -115,7 +115,7 @@ const cases: Case[] = [
       link: 'https://drwnsc5veu.feishu.cn/wiki/FNGYwt7wZis6EIkE6K9c7Ifxn0g'
     },
     {
-      id: 1.8,
+      id: 13,
       title: 'AI 开发查性格测试小程序（3000 商单）',
       category: '小程序',
       author: '大鹏',
@@ -123,7 +123,7 @@ const cases: Case[] = [
       link: 'https://drwnsc5veu.feishu.cn/wiki/QZUjwQczFibKdckX4M0cbbaTnUf'
     },
     {
-      id: 1.9,
+      id: 14,
       title: 'AI 开发中药查询小程序',
       category: '小程序',
       author: '南卷',
@@ -131,7 +131,7 @@ const cases: Case[] = [
       link: 'https://drwnsc5veu.feishu.cn/wiki/Z7V7w0wZwiNA3hkfIXxctpmFngd'
     },
     {
-      id: 1.10,
+      id: 15,
       title: 'AI 开发一键获取公众号图片小程序',
       category: '小程序',
       author: '动次动次',
@@ -139,7 +139,7 @@ const cases: Case[] = [
       link: 'https://drwnsc5veu.feishu.cn/wiki/ZUtrwe4aPiHNMGkp8sLcKBtPn7g'
     },
     {
-      id: 1.11,
+      id: 16,
       title: 'AI 开发小众旅游小程序',
       category: '小程序',
       author: '狂热',
@@ -147,7 +147,7 @@ const cases: Case[] = [
       link: 'https://drwnsc5veu.feishu.cn/wiki/DYJKwPCQvirX6vkuIq6ciIZenJg'
     },
     {
-      id: 1.12,
+      id: 17,
       title: 'AI菜谱小程序开发:产品、设计、技术全流程',
       category: '小程序',
       author: '管一诺',
@@ -155,7 +155,7 @@ const cases: Case[] = [
       link: 'https://drwnsc5veu.feishu.cn/wiki/G9BywNSkkiCaDAk3DcScyQoinle'
     },
     {
-      id: 1.13,
+      id: 18,
       title: 'AI开发 2048 益智游戏',
       category: '小程序',
       author: '小林',
@@ -163,7 +163,7 @@ const cases: Case[] = [
       link: 'https://drwnsc5veu.feishu.cn/wiki/PuWGwvlECizCYdkFUURcMtBhnhe'
     },
     {
-      id: 1.14,
+      id: 19,
       title: 'AI开发 K12 小程序，10000+商单心得',
       category: '小程序',
       author: '大鹏',
@@ -172,7 +172,7 @@ const cases: Case[] = [
     },
     // iOS
     {
-      id: 2.1,
+      id: 20,
       title: '免费 iOS APP 陪伴日记',
       category: 'iOS',
       author: '予贝',
@@ -180,7 +180,7 @@ const cases: Case[] = [
       link: 'https://drwnsc5veu.feishu.cn/wiki/WLaVwWrCgizSLJkNwT4cHr2Wnxc'
     },
     {
-      id: 2.2,
+      id: 21,
       title: '付费 iOS APP 图片处理',
       category: 'iOS',
       author: '予贝',
@@ -188,7 +188,7 @@ const cases: Case[] = [
       link: 'https://drwnsc5veu.feishu.cn/wiki/CnaFwgj9ticlhUk9Fnicnm00n1c'
     },
     {
-      id: 2.3,
+      id: 22,
       title: '免费 iOS boring time',
       category: 'iOS',
       author: '曹大',
@@ -196,7 +196,7 @@ const cases: Case[] = [
       link: 'https://drwnsc5veu.feishu.cn/wiki/Vac7we6fliEZS6kVXHhcJy44nRh'
     },
     {
-      id: 2.4,
+      id: 23,
       title: '付费 iOS 易转（榜单 24）',
       category: 'iOS',
       author: '王登康',
@@ -205,7 +205,7 @@ const cases: Case[] = [
     },
     // 安卓
     {
-      id: 3.1,
+      id: 24,
       title: '电子产品管理工具',
       category: '安卓',
       author: '予贝',
@@ -213,7 +213,7 @@ const cases: Case[] = [
       link: 'https://drwnsc5veu.feishu.cn/wiki/Y2ffwF8g4iI0ltkfDWJc3f8On4c'
     },
     {
-      id: 3.2,
+      id: 25,
       title: '表情包生成器 APP',
       category: '安卓',
       author: '鱼皮',
@@ -222,7 +222,7 @@ const cases: Case[] = [
     },
     // 网站
     {
-      id: 4.1,
+      id: 26,
       title: '图片加边框网页',
       category: '网站',
       author: '小林',
@@ -230,7 +230,7 @@ const cases: Case[] = [
       link: 'https://drwnsc5veu.feishu.cn/wiki/KLOLwOZHiiAUUsk8tkOc7EePnCc'
     },
     {
-      id: 4.2,
+      id: 27,
       title: '贪吃蛇网页游戏',
       category: '网站',
       author: '小林',
@@ -238,7 +238,7 @@ const cases: Case[] = [
       link: 'https://drwnsc5veu.feishu.cn/wiki/Qxz0wFlMwi1QTHkW7KncIEbwn5e'
     },
     {
-      id: 4.3,
+      id: 28,
       title: 'Chatbot 聊天网站',
       category: '网站',
       author: '薇冷',
@@ -246,7 +246,7 @@ const cases: Case[] = [
       link: 'https://drwnsc5veu.feishu.cn/wiki/A58rwS1Syi5W4dkAw8dcBCttnGe'
     },
     {
-      id: 4.4,
+      id: 29,
       title: '坐标轴科幻风网页',
       category: '网站',
       author: '小林',
@@ -254,7 +254,7 @@ const cases: Case[] = [
       link: 'https://drwnsc5veu.feishu.cn/wiki/EfVPwfWpmiN3efkYcOacNKURnke'
     },
     {
-      id: 4.5,
+      id: 30,
       title: 'AI 排版助手',
       category: '网站',
       author: '小林',
@@ -262,7 +262,7 @@ const cases: Case[] = [
       link: 'https://drwnsc5veu.feishu.cn/wiki/Z5zEwEQfeilpNYkIK5jcfL3XnXg'
     },
     {
-      id: 4.6,
+      id: 31,
       title: '从 0 到 1 上线海外站点',
       category: '网站',
       author: '唯唐',
@@ -270,7 +270,7 @@ const cases: Case[] = [
       link: 'https://drwnsc5veu.feishu.cn/wiki/EHdRwmx5gi6jwqk3WW4cuEwQnsg'
     },
     {
-      id: 4.7,
+      id: 32,
       title: 'Gemini 开发植物大战僵尸',
       category: '网站',
       author: '苍何',
@@ -278,7 +278,7 @@ const cases: Case[] = [
       link: 'https://drwnsc5veu.feishu.cn/wiki/WVLlwChvKiNTQGkOgEycCnytnSe'
     },
     {
-      id: 4.8,
+      id: 33,
       title: '海外站 UI 优化（1000美金）',
       category: '网站',
       author: '超级无敌小湾娘',
@@ -286,7 +286,7 @@ const cases: Case[] = [
       link: 'https://drwnsc5veu.feishu.cn/wiki/NKhVwJNwdiGYMXk5ir7cR236ngQ'
     },
     {
-      id: 4.9,
+      id: 34,
       title: 'AI 表情包网站从 0 到 1 开发全流程',
       category: '网站',
       author: '超级无敌小湾娘',
@@ -294,7 +294,7 @@ const cases: Case[] = [
       link: 'https://drwnsc5veu.feishu.cn/wiki/JrAOwLm7CiIggEkA2LDcUAUbnZb'
     },
     {
-      id: 4.10,
+      id: 35,
       title: 'codeBuddy 开发电商后台系统',
       category: '网站',
       author: '亦辰',
@@ -303,7 +303,7 @@ const cases: Case[] = [
     },
     // 插件
     {
-      id: 5.1,
+      id: 36,
       title: '网页思维导图生成插件',
       category: '插件',
       author: '熊猫Jay',
@@ -311,7 +311,7 @@ const cases: Case[] = [
       link: 'https://drwnsc5veu.feishu.cn/wiki/RtTowzLi2ijE5TkPoSMcm3UNnng'
     },
     {
-      id: 5.2,
+      id: 37,
       title: '治愈系笑话生成器谷歌浏览器插件',
       category: '插件',
       author: '李想',
@@ -319,7 +319,7 @@ const cases: Case[] = [
       link: 'https://drwnsc5veu.feishu.cn/wiki/U0xMwhWExiKD8skuvQicmEdWnRg'
     },
     {
-      id: 5.3,
+      id: 38,
       title: '批量生成公众号内容',
       category: '插件',
       author: 'cloudrobot',
@@ -328,7 +328,7 @@ const cases: Case[] = [
     },
     // 提示词
     {
-      id: 6.1,
+      id: 39,
       title: 'Cursor 全局提示',
       category: '提示词',
       author: '大铭',
@@ -336,7 +336,7 @@ const cases: Case[] = [
       link: 'https://drwnsc5veu.feishu.cn/wiki/ZcnFw5esXiglS2kyswWcPMLPnrH'
     },
     {
-      id: 6.2,
+      id: 40,
       title: '万字拆解构建高性能 Prompt 之路，结构化提示词系统论述',
       category: '提示词',
       author: '云中江树',
@@ -344,7 +344,7 @@ const cases: Case[] = [
       link: 'https://drwnsc5veu.feishu.cn/wiki/UB3Iwdqnxio5uBkHK87cBKEYnLo'
     },
     {
-      id: 6.3,
+      id: 41,
       title: '我把顶级“思维教练”塞进 A，让人人都能用的六顶思考帽(附 Prompt)',
       category: '提示词',
       author: '甲木',
@@ -352,7 +352,7 @@ const cases: Case[] = [
       link: 'https://drwnsc5veu.feishu.cn/wiki/VWuvwhq0OiTwjEk9AoRcMw5lnyd'
     },
     {
-      id: 6.4,
+      id: 42,
       title: '把 AI变成“最强军师团”!人人都能享受顶级咨询(附Prompt)',
       category: '提示词',
       author: '甲木',
@@ -360,7 +360,7 @@ const cases: Case[] = [
       link: 'https://drwnsc5veu.feishu.cn/wiki/TxeFwf6d5igzzskuEqwcsanlnZg'
     },
     {
-      id: 6.5,
+      id: 43,
       title: '从 DeepSeek 最新的系统提示词，窥见 DS性格',
       category: '提示词',
       author: '云中江树',
@@ -369,7 +369,7 @@ const cases: Case[] = [
     },
      // MCP
      {
-      id: 7.1,
+      id: 44,
       title: '高德 MCP + Cursor 开发旅游助手',
       category: 'MCP',
       author: '小林、亦辰',
@@ -377,7 +377,7 @@ const cases: Case[] = [
       link: 'https://drwnsc5veu.feishu.cn/wiki/YspwwR0k8id9TzkL4OIc6VkYnbf'
     },
     {
-      id: 7.2,
+      id: 45,
       title: '设计 MCP + Trae 一键生成网页',
       category: 'MCP',
       author: '小林',
@@ -385,7 +385,7 @@ const cases: Case[] = [
       link: 'https://drwnsc5veu.feishu.cn/wiki/IIdtwb5fkidqJSk0Xygcu1XJn9f'
     },
     {
-      id: 7.3,
+      id: 46,
       title: 'Claude+高德 MCP 搞定苏州三日游',
       category: 'MCP',
       author: '易安、成峰',
@@ -393,7 +393,7 @@ const cases: Case[] = [
       link: 'https://drwnsc5veu.feishu.cn/wiki/DwlhwXJvLidiFqk8bfqc5rfKnGd'
     },
     {
-      id: 7.4,
+      id: 47,
       title: 'Chatlog+MCP: 一键总结微信聊天记录',
       category: 'MCP',
       author: '亦辰',
@@ -401,7 +401,7 @@ const cases: Case[] = [
       link: 'https://drwnsc5veu.feishu.cn/wiki/XEqgwsJsUiRtkXk7WhVckXUZnnH'
     },
     {
-      id: 7.5,
+      id: 48,
       title: 'flomo+MCP 快速实现知识管理',
       category: 'MCP',
       author: '小林',
@@ -409,7 +409,7 @@ const cases: Case[] = [
       link: 'https://drwnsc5veu.feishu.cn/wiki/QRA9wa33JiNwrekYTXWchw8Wnmb'
     },
     {
-      id: 7.6,
+      id: 49,
       title: '微信读书+MCP，一键生成精美读书卡片',
       category: 'MCP',
       author: '小林、亦辰',
@@ -417,7 +417,7 @@ const cases: Case[] = [
       link: 'https://drwnsc5veu.feishu.cn/wiki/YgJXwL3Bti9ktHkaTAFcPB3LnQh'
     },
     {
-      id: 7.7,
+      id: 50,
       title: '12306+MCP，实时监控票务信息',
       category: 'MCP',
       author: '小林、亦辰',
@@ -425,7 +425,7 @@ const cases: Case[] = [
       link: 'https://drwnsc5veu.feishu.cn/wiki/Ezwmwgx9WiDwkWkBnvxcp6yZnYf'
     },
     {
-      id: 7.8,
+      id: 51,
       title: '高德 MCP + MiniMax MCP，在故宫听乾隆讲秘密',
       category: 'MCP',
       author: '成峰',
@@ -433,7 +433,7 @@ const cases: Case[] = [
       link: 'https://drwnsc5veu.feishu.cn/wiki/N7GzwlaBDiPcqik97xPcprt7nPh'
     },
     {
-      id: 7.9,
+      id: 52,
       title: '纳米 AI 智能体 + MCP，3 分钟规划完爆款旅行',
       category: 'MCP',
       author: '成峰',
@@ -441,7 +441,7 @@ const cases: Case[] = [
       link: 'https://drwnsc5veu.feishu.cn/wiki/Keadw0JT0izPfTka0ycczJ0SnGe'
     },
     {
-      id: 7.10,
+      id: 53,
       title: '飞常准! 飞机出行 MCP + 天气 MCP',
       category: 'MCP',
       author: '亦辰',
@@ -449,7 +449,7 @@ const cases: Case[] = [
       link: 'https://drwnsc5veu.feishu.cn/wiki/LTHOwa7RbiYeTSkuMnYczTG8nux'
     },
     {
-      id: 7.11,
+      id: 54,
       title: '支付宝 MCP，开启 AI 支付新纪元',
       category: 'MCP',
       author: '苍何',
@@ -457,7 +457,7 @@ const cases: Case[] = [
       link: 'https://drwnsc5veu.feishu.cn/wiki/PbK3w5NJHixFBMkXpsqc0bKbn6d'
     },
     {
-      id: 7.12,
+      id: 55,
       title: '飞书 MCP 实现文档自动化',
       category: 'MCP',
       author: '易安',
@@ -465,7 +465,7 @@ const cases: Case[] = [
       link: 'https://drwnsc5veu.feishu.cn/wiki/ZrstwsD2LiVSeDkWHTmcSLqan4d'
     },
     {
-      id: 7.13,
+      id: 56,
       title: 'Qwen3+抖音 MCP 打造了个 24 小时待命的抖音小秘',
       category: 'MCP',
       author: '云中江树',
@@ -473,7 +473,7 @@ const cases: Case[] = [
       link: 'https://drwnsc5veu.feishu.cn/wiki/AOWPwg3PriuXUZkGqb9cHjvmnHb'
     },
     {
-      id: 7.14,
+      id: 57,
       title: 'supabase + MCP 轻松操作数据',
       category: 'MCP',
       author: '李想',
@@ -481,7 +481,7 @@ const cases: Case[] = [
       link: 'https://drwnsc5veu.feishu.cn/wiki/ApfSw3NWZiRHSKkmWLacH1Pmn6d'
     },
     {
-      id: 7.15,
+      id: 58,
       title: 'AI + MCP 实现 PPT 自由',
       category: 'MCP',
       author: '苍何',
@@ -489,7 +489,7 @@ const cases: Case[] = [
       link: 'https://drwnsc5veu.feishu.cn/wiki/M134wMNPqi5tBLkt4ejc7rT6nod'
     },
     {
-      id: 7.16,
+      id: 59,
       title: 'Cursor + 百度网盘 MCP 构建私人网盘助手',
       category: 'MCP',
       author: '苍何',
@@ -497,7 +497,7 @@ const cases: Case[] = [
       link: 'https://drwnsc5veu.feishu.cn/wiki/Ypvrw4vKwi83pMk4E9OcVJpsn6r'
     },
     {
-      id: 7.17,
+      id: 60,
       title: '人格小队 MCP，4 种陪聊性格',
       category: 'MCP',
       author: '亦辰',
@@ -505,7 +505,7 @@ const cases: Case[] = [
       link: 'https://drwnsc5veu.feishu.cn/wiki/C3tcw1cJ9iobRqkXzY0coK4DnB8'
     },
     {
-      id: 7.18,
+      id: 61,
       title: '微信支付 MCP，开启支付新纪元',
       category: 'MCP',
       author: '苍何',
@@ -513,7 +513,7 @@ const cases: Case[] = [
       link: 'https://drwnsc5veu.feishu.cn/wiki/KBfpwJPyXi82fFkfWTEcZgbandc'
     },
     {
-      id: 7.19,
+      id: 62,
       title: '提示词+MCP，Cursor 秒变 Kiro',
       category: 'MCP',
       author: '大铭',
@@ -523,7 +523,7 @@ const cases: Case[] = [
     
     // Agent
     {
-      id: 8.1,
+      id: 63,
       title: '手搓 Agent 一键批量制作 Labubu 手机壁纸',
       category: 'Agent',
       author: '苍何',
@@ -531,7 +531,7 @@ const cases: Case[] = [
       link: 'https://drwnsc5veu.feishu.cn/wiki/LU8Uw9NMriR5QikVaPbci69Qntb'
     },
     {
-      id: 8.2,
+      id: 64,
       title: 'Agent 交易市场',
       category: 'Agent',
       author: 'tab_engineer',
@@ -539,7 +539,7 @@ const cases: Case[] = [
       link: 'https://drwnsc5veu.feishu.cn/wiki/WuB1wHixqiBF8kkkglacB3IAnyd'
     },
     {
-      id: 8.3,
+      id: 65,
       title: '调香 Agent',
       category: 'Agent',
       author: 'Helen yee',
@@ -547,7 +547,7 @@ const cases: Case[] = [
       link: 'https://drwnsc5veu.feishu.cn/wiki/OyYjwlZqQimakMkQHY1c9WmSndc'
     },
     {
-      id: 8.4,
+      id: 66,
       title: '降重 Agent 设计思维（10 万订单）',
       category: 'Agent',
       author: '熊猫Jay',
@@ -555,7 +555,7 @@ const cases: Case[] = [
       link: 'https://drwnsc5veu.feishu.cn/wiki/GGfjwwdqxi0kiPk0iXxcCZbtnXc'
     },
     {
-      id: 8.5,
+      id: 67,
       title: '设计 Agent，Lovart 八大场景实测(含 Prompt)',
       category: 'Agent',
       author: '甲木',
@@ -563,7 +563,7 @@ const cases: Case[] = [
       link: 'https://drwnsc5veu.feishu.cn/wiki/QCZGwUOP7idyOkkZ1EQcitZ2nue'
     },
     {
-      id: 8.6,
+      id: 68,
       title: '通用 Agent，我用 Manus 做网页',
       category: 'Agent',
       author: '亦辰',
@@ -572,7 +572,7 @@ const cases: Case[] = [
     },
     // 主理人
     {
-      id: 9.1,
+      id: 69,
       title: '小林从医学生到 AI 编程转型之路',
       category: '主理人',
       author: '小林',
@@ -580,7 +580,7 @@ const cases: Case[] = [
       link: 'https://drwnsc5veu.feishu.cn/wiki/LquZwO1BNivYzVkZiTycVu6KnNf'
     },
     {
-      id: 9.2,
+      id: 70,
       title: '问答篇',
       category: '主理人',
       author: '小林',
